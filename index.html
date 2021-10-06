@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keycode Challenge</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div class="container">
+        <p id="text-xl">Press a key to see the event keycode</p>
+        <div id="resultView" class="col" style="display:none;">
+            <div class="row header">
+                <p id="event-which"></p>
+            </div>
+            <div class="row main-row">
+                <div class="col">
+                    <p>event.key</p>
+                    <p id="event-key"></p>
+
+                </div>
+                <div class="col">
+                    <p>event.code</p>
+                    <p id="event-code"></p>
+
+                </div>
+                <div class="col">
+                    <p>event.which</p>
+                    <p id="event-which"></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
